@@ -11,15 +11,18 @@ public class Ajio {
 	{
 	
 	System.setProperty("webdriver.chrome.driver","C:\\selenium folder\\New folder\\chromedriver-win32\\chromedriver.exe");
-		
-		ChromeOptions Options = new ChromeOptions();
-		Options.addArguments("--remote-allow-origins=*");
-	   WebDriver driver = new ChromeDriver(Options) ;
+	ChromeOptions Options = new ChromeOptions();
+	Options.addArguments("--remote-allow-origins=*");
+	WebDriver driver = new ChromeDriver(Options) ;
   
-	driver.get("https://in.search.yahoo.com/search?fr=mcafee&type=E211IN105G0&p=www.jio.com");
+	driver.get("https://www.jio.com/");
+	
+	System.out.println("my jio test");
+	
    // Assert.fail();
  	Thread.sleep(3000);
     
     driver.close();
+    driver.quit();
 	
 	}}
