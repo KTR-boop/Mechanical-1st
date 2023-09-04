@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-24T15:13:02 IST" name="Default suite" finished-at="2023-08-24T15:13:10 IST" duration-ms="8017">
+  <suite started-at="2023-09-03T20:23:45 IST" name="Default suite" finished-at="2023-09-03T20:24:38 IST" duration-ms="53228">
     <groups>
     </groups>
-    <test started-at="2023-08-24T15:13:02 IST" name="Default test" finished-at="2023-08-24T15:13:10 IST" duration-ms="8017">
-      <class name="Engineering.SomTest">
-        <test-method signature="Quaterpintest()[pri:0, instance:Engineering.SomTest@1349883]" started-at="2023-08-24T15:13:02 IST" name="Quaterpintest" finished-at="2023-08-24T15:13:10 IST" duration-ms="7973" status="PASS">
+    <test started-at="2023-09-03T20:23:45 IST" name="Default test" finished-at="2023-09-03T20:24:38 IST" duration-ms="53228">
+      <class name="CIvilEngg.COMpactTest">
+        <test-method signature="fo1()[pri:0, instance:CIvilEngg.COMpactTest@7f485fda]" started-at="2023-09-03T20:23:45 IST" name="fo1" finished-at="2023-09-03T20:24:06 IST" duration-ms="20877" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Quaterpintest -->
-      </class> <!-- Engineering.SomTest -->
+        </test-method> <!-- fo1 -->
+      </class> <!-- CIvilEngg.COMpactTest -->
+      <class name="CIvilEngg.Ecavation">
+        <test-method signature="fo2()[pri:0, instance:CIvilEngg.Ecavation@5b218417]" started-at="2023-09-03T20:24:06 IST" name="fo2" finished-at="2023-09-03T20:24:38 IST" duration-ms="32298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fo2 -->
+      </class> <!-- CIvilEngg.Ecavation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
